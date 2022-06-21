@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Faça sua Inscrição</title>
+    <link
+      rel="shortcut icon"
+      href="./assets/icons/iconearredondado.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div id="container-header">
+        <h1>FAÇA SUA INSCRIÇÃO</h1>
+      </div>
+    </header>
+
+    <main>
+      <div id="container-inscricao">
+        <div id="form-inscricao">
+          <form method="#" action="#">
+            <fieldset>
+              <input type="text" name="name" id="name" placeholder="Nome" />
+              <input
+                type="text"
+                name="surname"
+                id="surname"
+                placeholder="Sobrenome"
+              />
+              <input type="email" name="email" id="email" placeholder="Email" />
+              <input
+                type="tel"
+                name="phone"
+                id="phone"
+                placeholder="Telefone"
+              />
+
+              <select name="chosen-plan" id="chosen-plan">
+                <option value="diaria">Diária</option>
+                <option value="mensal">Mensal</option>
+                <option value="bimestral">Bimestral</option>
+                <option value="trimestral">Trimestral</option>
+                <option value="semestral">Semestral</option>
+                <option value="anual">Anual</option>
+              </select>
+              <select name="category" id="category">
+                <option value="prata">Prata</option>
+                <option value="ouro">Ouro</option>
+                <option value="platinum">Platinum</option>
+              </select>
+
+              <input class="submit" type="submit" value="Enviar Messagem" />
+            </fieldset>
+            <div id="obs">
+              <p>OBS: Sua matrícula será efetuada após o pagamento.</p>
+              <div id="container-price">
+                <div></div>
+                <div id="price"></div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
+    <script src="scriptinscricao.js"></script>
+  </body>
+</html>

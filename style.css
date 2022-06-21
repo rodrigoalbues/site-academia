@@ -1,0 +1,694 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(99, 101, 111, 0.642);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-image: linear-gradient(to right, blue, black);
+  background-repeat: no-repeat;
+  color: white;
+  padding: 0% 1%;
+  font-size: 1.3rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-shadow: 1px 1px 3px black;
+}
+
+#btn-mobile {
+  display: none;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#logo {
+  display: flex;
+  align-items: center;
+}
+
+#logo img {
+  border-radius: 50%;
+  padding: 10px;
+  width: 95px;
+}
+
+#logo span {
+  font-size: 2em;
+  padding-right: 8rem;
+  font-weight: bold;
+  text-shadow: 2px 1px 1px black;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: rgb(41, 76, 255);
+  text-shadow: 1px 1px 1px;
+}
+
+#menu {
+  display: flex;
+  gap: 2em;
+  margin-right: 10px;
+}
+
+#home {
+  display: flex;
+  justify-content: space-between;
+  padding: 10%;
+  padding-bottom: 5%;
+  margin-top: 2.2%;
+}
+
+h1 {
+  font-size: 300%;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 0.6px 0.5px 1px white;
+}
+
+.texthome p {
+  font-size: 250%;
+  text-align: center;
+  margin: 10%;
+}
+
+#home img {
+  border-radius: 50%;
+  width: 100%;
+  box-shadow: 5px 5px 2px black;
+}
+
+.divider {
+  height: 1px;
+  background-image: linear-gradient(to right, blue, black);
+}
+
+#about {
+  display: flex;
+  justify-content: space-between;
+  padding: 10%;
+  padding-bottom: 12%;
+  margin-top: 2.8%;
+}
+
+#about img {
+  border-radius: 50%;
+  width: 150%;
+  margin-right: 50%;
+  box-shadow: 5px 5px 2px black;
+}
+
+#about h1 {
+  align-items: center;
+  margin-top: 5%;
+}
+
+.textabout p {
+  font-size: 150%;
+  text-align: justify;
+  margin-left: 20%;
+  padding: 5%;
+}
+
+#services {
+  display: block;
+  padding: 3.5%;
+  padding-bottom: 0%;
+  margin-top: 6%;
+}
+
+#services h1 {
+  margin: 3.5%;
+  margin-bottom: 1%;
+  padding-top: 1%;
+}
+
+#cards {
+  display: block;
+  justify-content: space-around;
+  gap: 2%;
+}
+
+.cards1 {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 3%;
+}
+
+.cards2 {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 3%;
+}
+
+#cards .card {
+  background-color: rgba(128, 128, 128, 0.319);
+  width: 300px;
+  height: 200px;
+  text-align: center;
+  color: black;
+  box-shadow: 1px 1px 2px black;
+}
+
+.card h2 {
+  padding: 1%;
+  text-shadow: 0.5px 0.3px 1px white;
+}
+
+#plans {
+  margin: 0.5%;
+}
+
+#plans h1 {
+  margin-top: 11%;
+}
+
+table {
+  display: table;
+  box-sizing: border-box;
+  text-indent: initial;
+  border: 1px solid black;
+  margin: auto;
+  margin-bottom: 5%;
+  background-image: linear-gradient(to right, blue, rgba(0, 0, 0, 0.324));
+  box-shadow: 2px 2px 5px black;
+}
+
+.plan {
+  padding-right: 19rem;
+}
+
+td {
+  font-size: 180%;
+  padding: 0.5rem;
+}
+
+th {
+  font-size: 250%;
+}
+
+table button {
+  padding: 2%;
+  font-size: 100%;
+  box-shadow: 2px 2px 3px black;
+  text-shadow: 0.5px 0.3px 1px;
+}
+
+#testimonials {
+  padding: 8.5%;
+}
+
+#testimonials h1 {
+  padding: 5.5%;
+}
+
+#container-testimonial {
+  display: flex;
+  justify-content: space-around;
+}
+
+#container-testimonial p {
+  text-align: justify;
+  margin: 5%;
+}
+
+.testimonial {
+  background-color: rgba(128, 128, 128, 0.319);
+  width: 30%;
+  box-shadow: 2px 2px 3px black;
+}
+
+.testimonial img {
+  width: 14%;
+  margin-left: 2%;
+  border-radius: 50%;
+  box-shadow: 1.5px 1.5px 1px black;
+}
+
+#contact {
+  display: block;
+  padding: 7% 7% 0% 7%;
+}
+
+#contact h1 {
+  padding: 0.2%;
+  padding-bottom: 1.5%;
+}
+
+#contacts {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form {
+  width: 35%;
+  padding: 2%;
+  background-color: rgba(128, 128, 128, 0.319);
+  border-radius: 10px;
+  margin-bottom: 1%;
+  box-shadow: 2px 2px 3px black;
+}
+
+fieldset {
+  border-radius: 10px;
+  padding: 2%;
+}
+
+input,
+textarea,
+select {
+  display: block;
+  width: 100%;
+  padding: 2%;
+  box-sizing: border-box;
+  margin-bottom: 2%;
+}
+
+.submit {
+  width: 42%;
+  padding: 2%;
+  font-size: 110%;
+  background-image: linear-gradient(
+    to right,
+    rgb(0, 0, 255),
+    rgba(0, 0, 0, 0.451)
+  );
+  box-shadow: 1px 1px 3px black;
+}
+
+#adress {
+  margin-top: 4.5%;
+}
+
+.icons {
+  width: 2rem;
+}
+
+#adress li {
+  padding: 0.7rem;
+}
+
+#working {
+  margin: 3%;
+  padding: 0.7%;
+  font-size: 150%;
+}
+
+#working h2 {
+  padding: 5%;
+  text-align: center;
+  text-shadow: 0.5px 1px 1px white;
+}
+#working p {
+  padding-bottom: 2%;
+}
+
+footer {
+  display: flex;
+  background-image: linear-gradient(to right, rgb(0, 0, 255), black);
+  background-repeat: no-repeat;
+}
+
+#social {
+  padding: 0.2%;
+  margin: 0.3%;
+}
+.social-media {
+  padding: 0rem 0.8rem 0.8rem 0.8rem;
+}
+
+#container-header {
+  position: relative;
+}
+
+#container-inscricao {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#form-inscricao{
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 2%;
+  background-color: rgba(128, 128, 128, 0.319);
+  border-radius: 10px;
+  margin-bottom: 1%;
+  box-shadow: 2px 2px 3px black;
+}
+
+#obs {
+  display: flex;
+  padding-top: 0.8rem;
+  justify-content: space-between;
+}
+
+#container-price {
+  display: flex;
+  justify-content: space-around;
+  width: 9rem;
+  padding-top: 0.3rem;
+  background-color: rgb(255, 240, 240);
+  font-size: 1.3rem;
+}
+
+@media (max-width: 380px) {
+  header img {
+    display: none;
+  }
+}
+
+@media (max-width: 760px) {
+  #logo span {
+    padding: 0;
+    padding-left: 5px;
+    font-size: 100%;
+  }
+
+  #home,
+  #about,
+  #contacts,
+  #container-testimonial {
+    display: block;
+  }
+
+  h1 {
+    font-size: 170%;
+  }
+
+  #home p,
+  #about p {
+    font-size: 130%;
+    margin: 0;
+  }
+
+  #home h1 {
+    padding-top: 15%;
+  }
+
+  #home .picture img,
+  #about .picture img {
+    width: 100%;
+  }
+
+  #home .picture img {
+    margin-bottom: 20%;
+  }
+
+  #about {
+    padding-bottom: 0;
+  }
+
+  #about .picture img {
+    margin: 0;
+    margin-top: 23%;
+  }
+
+  #services h1 {
+    padding-top: 15%;
+  }
+
+  #cards {
+    align-items: center;
+  }
+
+  .cards1,
+  .cards2 {
+    display: block;
+  }
+
+  #cards .card {
+    width: auto;
+    margin: 10px;
+  }
+
+  #services #cards .card {
+    height: 120px;
+  }
+
+  #services h2 {
+    font-size: 90%;
+  }
+
+  #services p {
+    font-size: 70%;
+    text-align: justify;
+  }
+
+  #plans {
+    font-size: 70%;
+  }
+
+  #plans table h1 {
+    padding-top: 18%;
+  }
+
+  .plan {
+    padding: 0;
+  }
+
+  table {
+    margin-bottom: 40%;
+  }
+
+  tr {
+    font-size: 30%;
+  }
+
+  table button {
+    padding: 0;
+  }
+
+  #testimonials {
+    padding-top: 25%;
+  }
+
+  .testimonial {
+    height: 15%;
+    width: auto;
+    margin: 10px;
+  }
+
+  section #contacts {
+    width: 90%;
+  }
+
+  #contact h1 {
+    padding-top: 23%;
+  }
+
+  #working {
+    margin-bottom: 10%;
+  }
+
+  .form {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 0;
+  }
+
+  .submit {
+    font-size: 70%;
+    width: 52%;
+    padding: 2%;
+  }
+}
+
+@media (max-width: 1000px) {
+  #home {
+    padding-top: 15%;
+    margin-bottom: 3%;
+  }
+  #home img {
+    width: 120%;
+    margin-top: 20%;
+  }
+
+  #about {
+    gap: 20%;
+    align-items: center;
+    margin-bottom: 5%;
+  }
+
+  #about img {
+    width: 220%;
+    margin-top: 70%;
+  }
+
+  .textabout h1 {
+    padding-left: 10%;
+    padding-bottom: 5%;
+  }
+
+  .textabout p {
+    padding: 0;
+  }
+
+  #services {
+    padding-top: 8%;
+    width: auto;
+  }
+
+  #services h1 {
+    margin-bottom: 0;
+  }
+
+  #cards .card {
+    text-align: left;
+    height: 240px;
+    margin: 10px;
+  }
+
+  .cards1 {
+    margin-bottom: 1%;
+  }
+
+  .card h2 {
+    text-align: center;
+  }
+
+  .card p {
+    margin: 10px;
+  }
+
+  #plans {
+    padding: 3%;
+    margin-bottom: 7%;
+  }
+
+  #plans h1 {
+    padding-bottom: 10px;
+  }
+
+  tr {
+    font-size: 60%;
+  }
+
+  table button {
+    padding: 0;
+  }
+
+  #testimonials {
+    margin-bottom: 10%;
+  }
+
+  #contact h1 {
+    padding-bottom: 5%;
+  }
+
+  #contacts {
+    width: 105%;
+  }
+
+  #adress li {
+    width: 110%;
+  }
+
+  #working h2 {
+    font-size: 100%;
+  }
+
+  #working p {
+    font-size: 60%;
+  }
+
+  .submit {
+    font-size: 60%;
+    width: 52%;
+    padding: 2%;
+  }
+
+  footer {
+    padding: 8px;
+  }
+}
+
+@media (max-width: 1198px) {
+  #menu {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 0;
+    top: 100%;
+    right: 0%;
+    left: 0%;
+    padding: 0% 2%;
+    background-image: linear-gradient(to right, blue, black);
+    transition: 0.6s;
+    visibility: hidden;
+    overflow-y: hidden;
+  }
+
+  #nav.active #menu {
+    height: 100vh;
+    visibility: visible;
+    overflow-y: hidden;
+  }
+
+  #menu li {
+    padding: 1% 0;
+  }
+
+  a:hover {
+    text-decoration: underline;
+    color: rgb(112, 112, 112);
+    text-shadow: 1px 1px 1px;
+  }
+
+  #btn-mobile {
+    display: flex;
+    align-items: center;
+    padding: 0.3rem 1rem;
+    font-size: 80%;
+    border: none;
+    background: none;
+    color: white;
+    cursor: pointer;
+    gap: 0.5rem;
+  }
+
+  #hamburger span {
+    display: block;
+    border-top: 2px solid;
+    width: 20px;
+    padding: 1.5px;
+    transition: 0.3s;
+    position: relative;
+  }
+
+  #nav.active #hamburguer-top {
+    border-top-color: transparent;
+  }
+
+  #nav.active #hamburger-middle {
+    transform: rotate(135deg);
+  }
+
+  #nav.active #hamburger-botton {
+    transform: rotate(-135deg);
+    top: -5px;
+    right: -2px;
+  }
+}

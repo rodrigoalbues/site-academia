@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Academia Fortalecer</title>
+    <link
+      rel="shortcut icon"
+      href="./assets/icons/iconearredondado.png"
+      type="image/x-icon"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header id="header">
+      <section class="container">
+        <section id="logo">
+          <img
+            src="./assets/images/android-chrome-192x192.png"
+            alt="Logo da Academia"
+          />
+          <span>ACADEMIA FORTALECER</span>
+        </section>
+        <nav id="nav">
+          <button
+            aria-label="Abrir Menu"
+            id="btn-mobile"
+            aria-haspopup="true"
+            aria-controls="menu"
+            aria-expanded="false"
+          >
+            Menu
+            <div id="hamburger">
+              <span id="hamburguer-top"></span>
+              <span id="hamburger-middle"></span
+              ><span id="hamburger-botton"></span>
+            </div>
+          </button>
+
+          <ul id="menu" role="menu">
+            <li><a href="#home" class="title">Início</a></li>
+            <li><a href="#about" class="title">Sobre</a></li>
+            <li><a href="#services" class="title">Serviços</a></li>
+            <li><a href="#plans" class="title">Planos</a></li>
+            <li><a href="#testimonials" class="title">Depoimentos</a></li>
+            <li><a href="#contact" class="title">Contato</a></li>
+          </ul>
+        </nav>
+      </section>
+    </header>
+    <main>
+      <section id="home">
+        <div class="texthome">
+          <h1>VENHA SE EXERCITAR CONOSCO</h1>
+          <p>Treine sempre acompanhado de um instrutor!</p>
+        </div>
+
+        <div class="picture">
+          <img
+            src="./assets/images/home.jpg"
+            alt="Aluna treinando com ajuda do instrutor"
+          />
+        </div>
+      </section>
+      <div class="divider"></div>
+      <section id="about">
+        <div class="picture">
+          <img
+            src="./assets/images/academia.webp"
+            alt="academia com aparelhos de musculação"
+          />
+        </div>
+        <div class="textabout">
+          <h1>Quem somos</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+            voluptate distinctio enim est illum porro, consequatur saepe illo
+            ullam, quisquam ducimus, suscipit doloribus molestiae inventore
+            laudantium nostrum delectus alias amet.
+          </p>
+        </div>
+      </section>
+      <div class="divider"></div>
+      <section id="services">
+        <h1>Serviços</h1>
+        <div id="cards">
+          <div class="cards1">
+            <div class="card" id="slimming">
+              <h2>EMAGRECIMENTO</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
+                nihil maxime est blanditiis dicta deserunt, deleniti
+                perspiciatis reprehenderit, consequatur iure autem adipisci.
+                Delectus itaque quaerat harum laborum. Minus, dolorem odit?
+              </p>
+            </div>
+
+            <div class="card" id="fortification">
+              <h2>FORTALECIMENTO</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
+                nihil maxime est blanditiis dicta deserunt, deleniti
+                perspiciatis reprehenderit, consequatur iure autem adipisci.
+                Delectus itaque quaerat harum laborum. Minus, dolorem odit?
+              </p>
+            </div>
+
+            <div class="card" id="posture">
+              <h2>CORREÇÃO DE POSTURA</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
+                deserunt, deleniti perspiciatis reprehenderit, consequatur iure
+                autem adipisci. Delectus itaque quaerat harum laborum. Minus,
+                dolorem odit?
+              </p>
+            </div>
+          </div>
+
+          <div class="cards2">
+            <div class="card" id="functional">
+              <h2>FUNCIONAL</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
+                nihil maxime est blanditiis dicta deserunt, deleniti
+                perspiciatis reprehenderit, consequatur iure autem adipisci.
+                Delectus itaque quaerat harum laborum. Minus, dolorem odit?
+              </p>
+            </div>
+
+            <div class="card" id="toning">
+              <h2>TONIFICAÇÃO MUSCULAR</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
+                deserunt, deleniti perspiciatis reprehenderit, consequatur iure
+                autem adipisci. Delectus itaque quaerat harum laborum. Minus,
+                dolorem odit?
+              </p>
+            </div>
+
+            <div class="card" id="cardio">
+              <h2>CARDIO</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
+                nihil maxime est blanditiis dicta deserunt, deleniti
+                perspiciatis reprehenderit, consequatur iure autem adipisci.
+                Delectus itaque quaerat harum laborum. Minus, dolorem odit?
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="divider"></div>
+      <section id="plans">
+        <table>
+          <caption>
+            <h1>PLANOS</h1>
+          </caption>
+          <thead>
+            <tr>
+              <th scope="col"></th>
+              <th scope="col">Prata</th>
+              <th scope="col">Ouro</th>
+              <th scope="col">Platinum</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="plan">Diária</td>
+              <td id="dsilver">R$ 10,00</td>
+              <td id="dgold">R$ 20,00</td>
+              <td id="dplatinum">R$ 30,00</td>
+            </tr>
+            <tr>
+              <td class="plan">Mensal</td>
+              <td id="msilver">R$ 100,00</td>
+              <td id="mgold">R$ 120,00</td>
+              <td id="mplatinum">R$ 150,00</td>
+            </tr>
+            <tr>
+              <td class="plan">Bimestral</td>
+              <td id="bsilver">R$ 180,00</td>
+              <td id="bgold">R$ 200,00</td>
+              <td id="bplatinum">R$ 220,00</td>
+            </tr>
+            <tr>
+              <td class="plan">Trimestral</td>
+              <td id="tsilver">R$ 250,00</td>
+              <td id="tgold">R$ 280,00</td>
+              <td id="tplatinum">R$ 310,00</td>
+            </tr>
+            <tr>
+              <td class="plan">Semestral</td>
+              <td id="ssilver">R$ 480,00</td>
+              <td id="sgold">R$ 540,00</td>
+              <td id="splatinum">R$ 600,00</td>
+            </tr>
+            <tr>
+              <td class="plan">Anual</td>
+              <td id="asilver">R$ 900,00</td>
+              <td id="agold">R$ 960,00</td>
+              <td id="aplatinum">R$ 1000,00</td>
+            </tr>
+            <tr>
+              <td>
+                <a href="inscricao.html" target="_blank"
+                  ><button>Inscreva-se</button></a
+                >
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <div class="divider"></div>
+      <section id="testimonials">
+        <h1>DEPOIMENTOS</h1>
+        <div id="container-testimonial">
+          <div class="testimonial" id="testimonial1">
+            <blockquote>
+              <p>
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
+                nihil maxime est blanditiis dicta deserunt, deleniti
+                perspiciatis reprehenderit, consequatur iure autem adipisci.
+                Delectus itaque quaerat harum laborum. Minus, dolorem odit?"
+              </p>
+            </blockquote>
+            <cite>
+              <img
+                src="./assets/images/erika-dias.jpg"
+                alt="Foto de Erika Dias"
+              />Érika Dias
+            </cite>
+          </div>
+
+          <div class="testimonial" id="testimonial2">
+            <blockquote>
+              <p>
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
+                nihil maxime est blanditiis dicta deserunt, deleniti
+                perspiciatis reprehenderit, consequatur iure autem adipisci.
+                Delectus itaque quaerat harum laborum. Minus, dolorem odit?"
+              </p>
+            </blockquote>
+            <cite>
+              <img
+                src="./assets/images/nathan-mendonca.jpg"
+                alt="Foto de Natha Mendonça"
+              />Nathan Mendonça
+            </cite>
+          </div>
+
+          <div class="testimonial" id="testimonial3">
+            <blockquote>
+              <p>
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
+                nihil maxime est blanditiis dicta deserunt, deleniti
+                perspiciatis reprehenderit, consequatur iure autem adipisci.
+                Delectus itaque quaerat harum laborum. Minus, dolorem odit?"
+              </p>
+            </blockquote>
+            <cite>
+              <img
+                src="./assets/images/vick-morais.jpg"
+                alt="Foto de Vick Morais"
+              />Vick Morais
+            </cite>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider"></div>
+
+      <section id="contact">
+        <h1>ENTRE EM CONTATO CONOSCO</h1>
+        <div id="contacts">
+          <div id="adress">
+            <ul>
+              <li>
+                <img
+                  class="icons"
+                  src="./assets/icons/localizacao.png"
+                  alt="Ícone de localização"
+                />
+                Rua, nr 00 - Bairro - Cidade
+              </li>
+              <li>
+                <img
+                  class="icons"
+                  src="./assets/icons/chamada-telefonica.png"
+                  alt="Ícone de telefone"
+                />
+                (00) 0000-0000
+              </li>
+              <li>
+                <img
+                  class="icons"
+                  src="./assets/icons/e-mail.png"
+                  alt="Ícone de email"
+                />
+                contato@fortalecer.com.br
+              </li>
+            </ul>
+          </div>
+          <div id="working">
+            <h2>Atendimento</h2>
+            <p>Seg a Sex ----------- 5:00 às 23:00</p>
+            <p>Sáb ------------------- 5:00 às 12:00</p>
+          </div>
+          <aside class="form">
+            <form method="#" action="#">
+              <fieldset>
+                <input type="text" name="name" id="name" placeholder="Nome" />
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="Email"
+                />
+                <input
+                  type="tel"
+                  name="phone"
+                  id="phone"
+                  placeholder="Telefone"
+                />
+                <textarea
+                  name="message"
+                  id="message"
+                  cols="30"
+                  rows="10"
+                  placeholder=" Digite sua mensagem"
+                ></textarea>
+                <input class="submit" type="submit" value="Enviar Messagem" />
+              </fieldset>
+            </form>
+          </aside>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div id="social">
+        <a class="social-media" href="https://www.instagram.com" target="_blank"
+          ><img class="icons" src="./assets/icons/instagram.png" alt=""
+        /></a>
+        <a class="social-media" href="https://www.facebook.com" target="_blank"
+          ><img class="icons" src="./assets/icons/facebook.png" alt=""
+        /></a>
+        <a class="social-media" href="https://www.youtube.com/" target="_blank"
+          ><img class="icons" src="./assets/icons/youtube.png" alt=""
+        /></a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
