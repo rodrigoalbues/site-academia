@@ -9,12 +9,12 @@ html {
 }
 
 body {
-  background-color: rgba(99, 101, 111, 0.642);
+  background-color: rgba(236, 237, 241, 0.642);
   font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
-  background-image: linear-gradient(to right, blue, black);
+  background-color: #034159;
   background-repeat: no-repeat;
   color: white;
   padding: 0% 1%;
@@ -66,7 +66,7 @@ a {
 
 a:hover {
   text-decoration: underline;
-  color: rgb(41, 76, 255);
+  color: #038c3e;
   text-shadow: 1px 1px 1px;
 }
 
@@ -167,7 +167,7 @@ h1 {
 }
 
 #cards .card {
-  background-color: rgba(128, 128, 128, 0.319);
+  background-color: rgba(128, 128, 128, 0.154);
   width: 300px;
   height: 200px;
   text-align: center;
@@ -195,8 +195,9 @@ table {
   border: 1px solid black;
   margin: auto;
   margin-bottom: 5%;
-  background-image: linear-gradient(to right, blue, rgba(0, 0, 0, 0.324));
+  background-color: #02735e31;
   box-shadow: 2px 2px 5px black;
+  border-radius: 10px;
 }
 
 .plan {
@@ -238,7 +239,7 @@ table button {
 }
 
 .testimonial {
-  background-color: rgba(128, 128, 128, 0.319);
+  background-color: rgba(128, 128, 128, 0.154);
   width: 30%;
   box-shadow: 2px 2px 3px black;
 }
@@ -293,11 +294,7 @@ select {
   width: 42%;
   padding: 2%;
   font-size: 110%;
-  background-image: linear-gradient(
-    to right,
-    rgb(0, 0, 255),
-    rgba(0, 0, 0, 0.451)
-  );
+  background-color: rgba(128, 128, 128, 0.703);
   box-shadow: 1px 1px 3px black;
 }
 
@@ -330,8 +327,7 @@ select {
 
 footer {
   display: flex;
-  background-image: linear-gradient(to right, rgb(0, 0, 255), black);
-  background-repeat: no-repeat;
+  background-color: #034159;
 }
 
 #social {
