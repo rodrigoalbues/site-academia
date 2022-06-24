@@ -66,7 +66,7 @@ a {
 
 a:hover {
   text-decoration: underline;
-  color: #038c3e;
+  color: rgb(112, 112, 112);
   text-shadow: 1px 1px 1px;
 }
 
@@ -167,7 +167,7 @@ h1 {
 }
 
 #cards .card {
-  background-color: rgba(128, 128, 128, 0.154);
+  background-color: rgba(128, 128, 128, 0.3);
   width: 300px;
   height: 200px;
   text-align: center;
@@ -195,7 +195,7 @@ table {
   border: 1px solid black;
   margin: auto;
   margin-bottom: 5%;
-  background-color: #02735e31;
+  background-color: rgba(128, 128, 128, 0.3);
   box-shadow: 2px 2px 5px black;
   border-radius: 10px;
 }
@@ -239,7 +239,7 @@ table button {
 }
 
 .testimonial {
-  background-color: rgba(128, 128, 128, 0.154);
+  background-color: rgba(128, 128, 128, 0.3);
   width: 30%;
   box-shadow: 2px 2px 3px black;
 }
@@ -269,7 +269,7 @@ table button {
 .form {
   width: 35%;
   padding: 2%;
-  background-color: rgba(128, 128, 128, 0.319);
+  background-color: rgba(128, 128, 128, 0.3);
   border-radius: 10px;
   margin-bottom: 1%;
   box-shadow: 2px 2px 3px black;
@@ -635,7 +635,7 @@ footer {
     right: 0%;
     left: 0%;
     padding: 0% 2%;
-    background-image: linear-gradient(to right, blue, black);
+    background-color: #034159;
     transition: 0.6s;
     visibility: hidden;
     overflow-y: hidden;
